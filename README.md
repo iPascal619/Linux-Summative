@@ -29,7 +29,7 @@ This repository contains four comprehensive system programming projects demonstr
 gcc system_resource_monitor.c -o resource_monitor
 
 # Run Python Plotting Script
-python plot_system_metrics.py
+python system_resource_plot.py
 ```
 
 ### 2. Multi-Threading (Producer-Consumer Model)
