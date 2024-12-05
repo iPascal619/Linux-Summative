@@ -60,11 +60,6 @@ long get_network_usage() {
 
     for (ifap = ifa; ifap; ifap = ifap->ifa_next) {
         if (ifap->ifa_addr && ifap->ifa_addr->sa_family == AF_PACKET) {
-            // Assuming eth0, modify as needed
-            if (strcmp(ifap->ifa_name, "eth0") == 0) {
-                // This is a placeholder
-                total_bytes += 1024;  // Dummy value
-            }
         }
     }
 
